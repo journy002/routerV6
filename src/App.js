@@ -4,9 +4,6 @@ import Home from "./components/home";
 import Profile from "./components/profile";
 
 const App = (props) => (
-  // router 버전이 v5 -> v6로 업데이트 되면서 달라진 점들.
-  // Switch => Routes
-  // component => element
   <BrowserRouter>
     <ul>
       <li>

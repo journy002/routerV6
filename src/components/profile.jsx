@@ -1,19 +1,14 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const Profile = () => {
+const Profile = (props) => {
   const history = useNavigate();
+
   return (
-    <>
-      <h1>PROFILE</h1>
-      <button
-        onClick={() => {
-          history("/");
-        }}
-      >
-        Go to Home
-      </button>
-    </>
+    <div>
+      <p>Profile</p>
+      <button onClick={() => history("/")}>Go to Home</button>
+    </div>
   );
 };
 

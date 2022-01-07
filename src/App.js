@@ -7,10 +7,10 @@ const App = (props) => (
   <BrowserRouter>
     <ul>
       <li>
-        <Link to="/">Home</Link>
+        <Link to={"/"}>Home</Link>
       </li>
       <li>
-        <Link to="/profile">Profile</Link>
+        <Link to={"/profile"}>Profile</Link>
       </li>
     </ul>
     <Routes>
